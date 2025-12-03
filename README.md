@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=fast4x)](https://github.com/ryo-ma/github-profile-trophy)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fast4x&show_icons=true)
 <!--
