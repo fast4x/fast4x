@@ -13,9 +13,7 @@
 </picture>
 
 I'm a simple developer with some experience and ideas.
-I build **Android and multiplatform apps in Kotlin** — I'm the author of
-[RiMusic](https://github.com/fast4x/RiMusic) (3.9k stars, archived) and
-[RiPlay](https://github.com/fast4x/RiPlay).
+I build **Android and multiplatform apps in Kotlin**
 
 ### Tech stack
 
@@ -31,19 +29,5 @@ I build **Android and multiplatform apps in Kotlin** — I'm the author of
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-stats-dark.svg">
   <img src="assets/profile-stats-light.svg" alt="GitHub profile statistics: commits, stars, pull requests, issues, repositories and followers">
 </picture>
-
-*Statistics are generated daily by a GitHub Actions workflow running in this
-repository: no external widget servers, nothing that can break or rate-limit.*
-
-### Projects
-
-| Project | Description |
-| --- | --- |
-| [RiMusic](https://github.com/fast4x/RiMusic) | A multilingual and multiplatform application for streaming music (3.9k stars, archived) |
-| [RiPlay](https://github.com/fast4x/RiPlay) | Multiplatform Music Player |
-| [RiGallery](https://github.com/fast4x/RiGallery) | An Advanced Android Media Gallery |
-| [RiLauncher](https://github.com/fast4x/RiLauncher) | An Android Launcher |
-| [RiTune](https://github.com/fast4x/RiTune) | RiPlay Cast Receiver |
-| [RiEqualizer](https://github.com/fast4x/RiEqualizer) | Android Real-Time Audio Equalizer |
 
 </div>
