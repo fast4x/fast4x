@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="334" viewBox="0 0 820 334" role="img" aria-label="GitHub profile statistics for fast4x">
+<defs><linearGradient id="n-sd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#818cf8"/><stop offset="0.5" stop-color="#c084fc"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="819" height="333" rx="16"
+      fill="#0d1117" fill-opacity="0.35" stroke="#30363d" stroke-width="1"/>
+<text x="24" y="40" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700"
+      letter-spacing="2.5" fill="#e6edf3">GITHUB PROFILE STATS</text>
+<circle cx="638.0" cy="36" r="3.5" fill="#3fb950">
+  <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="796" y="40" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11"
+      font-weight="500" fill="#9198a1">auto-updated 2026-11-13</text>
+<g>
+  <rect x="24.0" y="58" width="246.0" height="110" rx="12"
+        fill="#151b23" stroke="#30363d" stroke-width="1"/>
+  <g stroke="#c084fc" stroke-width="1.8" fill="none" stroke-linecap="round">
+  <line x1="42.0" y1="84.0" x2="46.4" y2="84.0"/>
+  <line x1="57.6" y1="84.0" x2="62.0" y2="84.0"/>
+  <circle cx="52.0" cy="84.0" r="5.6"/>
+  <circle cx="52.0" cy="84.0" r="2.1" fill="#c084fc" stroke="none"/>
+</g>
+  <text x="42.0" y="132" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30"
+        font-weight="700" fill="url(#n-sd)">4,149</text>
+  <text x="42.0" y="154" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12"
+        font-weight="500" letter-spacing="0.6" fill="#9198a1">Commits &#183; past year</text>
+</g><g>
+  <rect x="287.0" y="58" width="246.0" height="110" rx="12"
+        fill="#151b23" stroke="#30363d" stroke-width="1"/>
+  <polygon points="315.00,74.40 317.35,80.76 324.13,81.03 318.80,85.24 320.64,91.77 315.00,88.00 309.36,91.77 311.20,85.24 305.87,81.03 312.65,80.76" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linejoin="round"/>
+  <text x="305.0" y="132" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30"
+        font-weight="700" fill="url(#n-sd)">751</text>
+  <text x="305.0" y="154" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12"
+        font-weight="500" letter-spacing="0.6" fill="#9198a1">Stars earned</text>
+</g><g>
+  <rect x="550.0" y="58" width="246.0" height="110" rx="12"
+        fill="#151b23" stroke="#30363d" stroke-width="1"/>
+  <g stroke="#c084fc" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="573.6" cy="77.6" r="2.4"/>
+  <circle cx="573.6" cy="90.4" r="2.4"/>
+  <circle cx="582.4" cy="90.4" r="2.4"/>
+  <line x1="573.6" y1="80.0" x2="573.6" y2="88.0"/>
+  <line x1="582.4" y1="88.0" x2="582.4" y2="80.0"/>
+  <polyline points="579.0,83.4 582.4,80.0 585.8,83.4"/>
+</g>
+  <text x="568.0" y="132" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30"
+        font-weight="700" fill="url(#n-sd)">116</text>
+  <text x="568.0" y="154" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12"
+        font-weight="500" letter-spacing="0.6" fill="#9198a1">Pull requests</text>
+</g><g>
+  <rect x="24.0" y="182" width="246.0" height="110" rx="12"
+        fill="#151b23" stroke="#30363d" stroke-width="1"/>
+  <g stroke="#818cf8" stroke-width="1.8" fill="none">
+  <circle cx="52.0" cy="208.0" r="8.8"/>
+  <circle cx="52.0" cy="208.0" r="2.4" fill="#818cf8" stroke="none"/>
+</g>
+  <text x="42.0" y="256" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30"
+        font-weight="700" fill="url(#n-sd)">1</text>
+  <text x="42.0" y="278" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12"
+        font-weight="500" letter-spacing="0.6" fill="#9198a1">Issues opened</text>
+</g><g>
+  <rect x="287.0" y="182" width="246.0" height="110" rx="12"
+        fill="#151b23" stroke="#30363d" stroke-width="1"/>
+  <g stroke="#c084fc" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="308.0" y="200.4" width="14.0" height="15.2" rx="2.5"/>
+  <line x1="308.0" y1="204.4" x2="322.0" y2="204.4"/>
+  <line x1="313.4" y1="202.4" x2="319.0" y2="202.4"/>
+</g>
+  <text x="305.0" y="256" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30"
+        font-weight="700" fill="url(#n-sd)">27</text>
+  <text x="305.0" y="278" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12"
+        font-weight="500" letter-spacing="0.6" fill="#9198a1">Public repositories</text>
+</g><g>
+  <rect x="550.0" y="182" width="246.0" height="110" rx="12"
+        fill="#151b23" stroke="#30363d" stroke-width="1"/>
+  <g stroke="#818cf8" stroke-width="1.8" fill="none" stroke-linecap="round">
+  <circle cx="576.0" cy="204.4" r="4.0"/>
+  <path d="M 570.0,215.2 a 6.0,6.0 0 0 1 12.0,0"/>
+  <circle cx="583.2" cy="204.0" r="3.0"/>
+  <path d="M 582.4,214.8 a 4.8,4.8 0 0 1 4.4,-3.2"/>
+</g>
+  <text x="568.0" y="256" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30"
+        font-weight="700" fill="url(#n-sd)">706</text>
+  <text x="568.0" y="278" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12"
+        font-weight="500" letter-spacing="0.6" fill="#9198a1">Followers</text>
+</g>
+</svg>
