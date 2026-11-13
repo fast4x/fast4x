@@ -203,12 +203,23 @@ def build_banner(p: dict, uid: str) -> str:
 def build_ticker(p: dict, uid: str) -> str:
     W, H = 820, 44
     n = len(TICKER_PHRASES)
-    cycle = 12.0
-    seg = cycle / n
+    cycle = 12.0                 # total duration of the loop (s)
+    seg = cycle / n              # time slot of each phrase (s)
+    # Each phrase is visible ONLY inside its own slot of the loop:
+    # fade in (18% of slot) -> hold (64%) -> fade out (18%) -> hidden until
+    # its slot comes around again. keyTimes are fractions of the animation
+    # duration (which starts at begin=i*seg), so they are identical for
+    # every phrase; only the begin offset differs. This guarantees phrases
+    # can never overlap.
+    fade = 0.18 * seg / cycle
+    hold = 0.82 * seg / cycle
+    end = seg / cycle
+    values = "0;1;1;0;0"
+    keytimes = f"0;{fade:.6f};{hold:.6f};{end:.6f};1"
     texts = []
     for i, phrase in enumerate(TICKER_PHRASES):
         begin = i * seg
-        # crossfade: fade in during first 18% of the slot, hold, fade out at the end
+        # base opacity: phrase 0 stays visible when SMIL is not supported
         op = "1" if i == 0 else "0"
         texts.append(
             f'<text x="{W / 2}" y="{H / 2 + 5}" text-anchor="middle" '
@@ -216,7 +227,7 @@ def build_ticker(p: dict, uid: str) -> str:
             f'font-style="italic" fill="{p["muted"]}" opacity="{op}">'
             f'{esc(phrase)}'
             f'<animate attributeName="opacity" dur="{cycle}s" begin="{begin}s" '
-            f'values="0;1;1;0" keyTimes="0;0.18;0.82;1" repeatCount="indefinite"/>'
+            f'values="{values}" keyTimes="{keytimes}" repeatCount="indefinite"/>'
             f'</text>')
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="tagline">
 {''.join(texts)}
